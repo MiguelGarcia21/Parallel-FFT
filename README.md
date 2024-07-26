@@ -17,7 +17,10 @@ In the code, the process is not a "question" as used in the analogy, but it is a
 In parallel programming, the Cooley-Tukey FFT algorithm can be parallelized by distributing the independent computations across multiple threads. This can further improve the performance, especially for very large datasets, by taking advantage of multi-core and parallel computing architectures. In the analogy context, by parallelizing we will have the same process but now we have more people working in asking each group the question, so all of the groups are being asked in a parallel way which reduces the total time.
 
 Below you will find the comparison results of the average time taken for many configurations:
-This is the representation of the performance using 4096, 8192, 16384 and 32768 with the serial version of the code and the parallel version with 1, 4 and 8 threads:
+This is the representation of the performance using 4096, 8192, 16384 and 32768 with the serial version of the code and the parallel version with 1, 4 and 8 threads.
+
+Please note, the time is represented in Miliseconds:
+
 ![image](https://github.com/user-attachments/assets/bd19280e-78c0-47f6-b380-a15c502c6586)
 
 
@@ -34,6 +37,7 @@ For better readability, this is a separate chart representing the performance us
 
 ![image](https://github.com/user-attachments/assets/ff1e6ed8-cadd-428e-a191-1789b6779cf4)
 
-
+- We can see a Massive improvement in all charts when jumping from 1 to 4 threads but not much improvement when moving from 4 to 8 threads.
+- We see that it is more efficient using the serial version than the Parallel version if we select only one thread, and then when selecting 4 we can see an improvement
 
 
