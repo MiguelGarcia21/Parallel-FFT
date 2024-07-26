@@ -14,7 +14,9 @@ Then we take the results of each group and combine them in a specific way to get
 
 In the code, the process is not a "question" as used in the analogy, but it is a transformation of the input signal data to a frequency domain by identifying various components present in it.
 
-In parallel programming, the Cooley-Tukey FFT algorithm can be parallelized by distributing the independent computations across multiple threads. This can further improve the performance, especially for very large datasets, by taking advantage of multi-core and parallel computing architectures. In the analogy context, by parallelizing we will have the same process but now we have more people working in asking each group the question, so all of the groups are being asked in a parallel way which reduces the total time.
+In parallel programming, the Cooley-Tukey FFT algorithm can be parallelized by distributing the independent computations across multiple threads. This can further improve the performance, especially for very large datasets, by taking advantage of multi-core and parallel computing architectures. 
+
+In the analogy context, by parallelizing we will have the same process but now we have more people working in asking each group the question, so all of the groups are being asked in a parallel way which reduces the total time.
 
 Below you will find the comparison results of the average time taken for many configurations:
 This is the representation of the performance using 4096, 8192, 16384 and 32768 with the serial version of the code and the parallel version with 1, 4 and 8 threads.
