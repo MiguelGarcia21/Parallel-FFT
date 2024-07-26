@@ -19,11 +19,7 @@ In parallel programming, the Cooley-Tukey FFT algorithm can be parallelized by d
 Below you will find the comparison results of the average time taken for many configurations:
 This is the representation of the performance using 4096, 8192, 16384 and 32768 with the serial version of the code and the parallel version with 1, 4 and 8 threads:
 ![image](https://github.com/user-attachments/assets/403b37ac-e577-4cfd-b409-59b7d0817d4c)
-Size	4096	8192	16384	32768
-Serial	37	57	133	304
-1 Thread	41	73	138	286
-4 Threads	27	53	97	201
-8 Threads	31	54	95	188
+
 ![image](https://github.com/user-attachments/assets/f9cde8ee-1bb5-47e5-b912-23b361808580)
 
 
