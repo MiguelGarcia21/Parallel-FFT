@@ -40,6 +40,8 @@ For better readability, this is a separate chart representing the performance us
 ![image](https://github.com/user-attachments/assets/ff1e6ed8-cadd-428e-a191-1789b6779cf4)
 
 - We can see a Massive improvement in all charts when jumping from 1 to 4 threads but not much improvement when moving from 4 to 8 threads.
-- We see that it is more efficient using the serial version than the Parallel version if we select only one thread, and then when selecting 4 we can see an improvement
+- We see that it is more efficient using the serial version than the Parallel version if we select only one thread, and then when selecting 4 we can see an improvement.
+
+Miguel Angel Garcia
 
 
