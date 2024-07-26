@@ -22,6 +22,11 @@ This is the representation of the performance using 4096, 8192, 16384 and 32768 
 
 ![image](https://github.com/user-attachments/assets/f9cde8ee-1bb5-47e5-b912-23b361808580)
 
+For better readability, this is a separate chart representing the performance using 65536, 131072, 262144:
+![image](https://github.com/user-attachments/assets/6cccc901-e665-44a0-8336-935fa161f71e)
+
+![image](https://github.com/user-attachments/assets/ff1e6ed8-cadd-428e-a191-1789b6779cf4)
+
 
 
 
